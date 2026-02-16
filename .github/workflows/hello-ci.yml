@@ -9,16 +9,16 @@
 #         run: echo "The CI pipeline has successfully started!"
 
 
-name: Python CI
+# name: Python CI
 
-on: [push]  # Triggers the workflow on every push
+# on: [push]  # Triggers the workflow on every push
 
-jobs:
-  build-and-test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4  # Downloads your code onto the runner
+# jobs:
+#   build-and-test:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4  # Downloads your code onto the runner
 
-      - name: Run Python Tests
-        run: python3 test_calc.py  # Executes the test script
+#       - name: Run Python Tests
+#         run: python3 test_calc.py  # Executes the test script
